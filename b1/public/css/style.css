@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Dosis', sans-serif;
+    color: #4b4b4b;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{
+	width: 5px;
+	height: 0px;
+
+}
+::-webkit-scrollbar-track {
+	background-color: #fff;  
+}
+::-webkit-scrollbar-thumb{
+	background: #4b4b4b;
+	border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #3c3c3c;
+}
